@@ -1,0 +1,30 @@
+# Build output
+dist/
+release/
+out/
+
+# Dependencies
+node_modules/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# electron-builder debug
+builder-debug.yml
